@@ -1,0 +1,17 @@
+C:\Users\bruno\source\repos\MovieDB\MovieDB.Infra\bin\Debug\net6.0\MovieDB.Infra.deps.json
+C:\Users\bruno\source\repos\MovieDB\MovieDB.Infra\bin\Debug\net6.0\MovieDB.Infra.runtimeconfig.json
+C:\Users\bruno\source\repos\MovieDB\MovieDB.Infra\bin\Debug\net6.0\MovieDB.Infra.dll
+C:\Users\bruno\source\repos\MovieDB\MovieDB.Infra\bin\Debug\net6.0\MovieDB.Infra.pdb
+C:\Users\bruno\source\repos\MovieDB\MovieDB.Infra\bin\Debug\net6.0\MovieDB.Domain.dll
+C:\Users\bruno\source\repos\MovieDB\MovieDB.Infra\bin\Debug\net6.0\MovieDB.Domain.pdb
+C:\Users\bruno\source\repos\MovieDB\MovieDB.Infra\obj\Debug\net6.0\MovieDB.Infra.csproj.AssemblyReference.cache
+C:\Users\bruno\source\repos\MovieDB\MovieDB.Infra\obj\Debug\net6.0\MovieDB.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bruno\source\repos\MovieDB\MovieDB.Infra\obj\Debug\net6.0\MovieDB.Infra.AssemblyInfoInputs.cache
+C:\Users\bruno\source\repos\MovieDB\MovieDB.Infra\obj\Debug\net6.0\MovieDB.Infra.AssemblyInfo.cs
+C:\Users\bruno\source\repos\MovieDB\MovieDB.Infra\obj\Debug\net6.0\MovieDB.Infra.csproj.CoreCompileInputs.cache
+C:\Users\bruno\source\repos\MovieDB\MovieDB.Infra\obj\Debug\net6.0\MovieDB.Infra.csproj.CopyComplete
+C:\Users\bruno\source\repos\MovieDB\MovieDB.Infra\obj\Debug\net6.0\MovieDB.Infra.dll
+C:\Users\bruno\source\repos\MovieDB\MovieDB.Infra\obj\Debug\net6.0\refint\MovieDB.Infra.dll
+C:\Users\bruno\source\repos\MovieDB\MovieDB.Infra\obj\Debug\net6.0\MovieDB.Infra.pdb
+C:\Users\bruno\source\repos\MovieDB\MovieDB.Infra\obj\Debug\net6.0\MovieDB.Infra.genruntimeconfig.cache
+C:\Users\bruno\source\repos\MovieDB\MovieDB.Infra\obj\Debug\net6.0\ref\MovieDB.Infra.dll

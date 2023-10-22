@@ -1,0 +1,12 @@
+C:\Users\bruno\source\repos\MovieDB\MovieDB.Domain\bin\Debug\net6.0\MovieDB.Domain.deps.json
+C:\Users\bruno\source\repos\MovieDB\MovieDB.Domain\bin\Debug\net6.0\MovieDB.Domain.dll
+C:\Users\bruno\source\repos\MovieDB\MovieDB.Domain\bin\Debug\net6.0\MovieDB.Domain.pdb
+C:\Users\bruno\source\repos\MovieDB\MovieDB.Domain\obj\Debug\net6.0\MovieDB.Domain.csproj.AssemblyReference.cache
+C:\Users\bruno\source\repos\MovieDB\MovieDB.Domain\obj\Debug\net6.0\MovieDB.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bruno\source\repos\MovieDB\MovieDB.Domain\obj\Debug\net6.0\MovieDB.Domain.AssemblyInfoInputs.cache
+C:\Users\bruno\source\repos\MovieDB\MovieDB.Domain\obj\Debug\net6.0\MovieDB.Domain.AssemblyInfo.cs
+C:\Users\bruno\source\repos\MovieDB\MovieDB.Domain\obj\Debug\net6.0\MovieDB.Domain.csproj.CoreCompileInputs.cache
+C:\Users\bruno\source\repos\MovieDB\MovieDB.Domain\obj\Debug\net6.0\MovieDB.Domain.dll
+C:\Users\bruno\source\repos\MovieDB\MovieDB.Domain\obj\Debug\net6.0\refint\MovieDB.Domain.dll
+C:\Users\bruno\source\repos\MovieDB\MovieDB.Domain\obj\Debug\net6.0\MovieDB.Domain.pdb
+C:\Users\bruno\source\repos\MovieDB\MovieDB.Domain\obj\Debug\net6.0\ref\MovieDB.Domain.dll
