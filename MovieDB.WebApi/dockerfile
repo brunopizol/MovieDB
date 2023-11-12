@@ -1,0 +1,27 @@
+﻿ # Imagem de compilação
+FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build-env
+WORKDIR /app
+
+# Copiar projeto e restaurar pacotes
+COPY MovieDB.WebApi/*.csproj ./MovieDB.WebApi/
+COPY MovieDB.Domain/*.csproj ./MovieDB.Domain/
+COPY MovieDB.Infra/*.csproj ./MovieDB.Infra/
+COPY MovieDB.Service/*.csproj ./MovieDB.Service/
+RUN dotnet restore MovieDB.WebApi/MovieDB.WebApi.csproj
+
+# Copiar todo o código
+COPY . .
+
+# Compilar e publicar a aplicação
+RUN dotnet publish MovieDB.WebApi/MovieDB.WebApi.csproj -c Release -o out
+
+# Imagem final
+FROM mcr.microsoft.com/dotnet/aspnet:6.0
+WORKDIR /app
+COPY --from=build-env /app/out ./
+
+# Expor porta
+EXPOSE 80
+
+# Comando para iniciar o container
+ENTRYPOINT ["dotnet", "MovieDB.WebApi.dll"]
