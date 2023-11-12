@@ -33,7 +33,7 @@ namespace MovieDB.Infra.Repositories
             if (existingActor != null)
             {               
                 existingActor.Name = actor.Name;
-                existingActor.Movies.AddRange(actor.Movies);
+                //existingActor.Movies.AddRange(actor.Movies);
                 existingActor.BirthDate = actor.BirthDate;               
             }
         }

@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MovieDB.Infra.Context;
 
@@ -10,9 +11,11 @@ using MovieDB.Infra.Context;
 namespace MovieDB.Infra.Migrations
 {
     [DbContext(typeof(MyContextDatabase))]
-    partial class MyContextDatabaseModelSnapshot : ModelSnapshot
+    [Migration("20231025094946_changingForeingKeys")]
+    partial class changingForeingKeys
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

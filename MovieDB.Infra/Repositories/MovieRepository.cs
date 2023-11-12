@@ -5,50 +5,55 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using MovieDB.Infra.Repositories;
+using MovieDB.Infra.Context;
 
 namespace MovieDB.Domain.Repositories
 {
     public class MovieRepository : IRepository<Movie>
     {
-        private List<Movie> _movies = new List<Movie>();
+        
+        private readonly MyContextDatabase _dbContext;
+
+        public MovieRepository(MyContextDatabase dbContext)
+        {            
+            _dbContext = dbContext;
+        }
 
         public Movie GetById(int id)
         {
-            return _movies.FirstOrDefault(m => m.Id == id);
+            return _dbContext.Movies.FirstOrDefault(m => m.Id == id);
         }
 
         public IEnumerable<Movie> GetAll()
         {
-            return _movies;
+            return _dbContext.Movies.ToList();
         }
 
         public void Insert(Movie movie)
         {
-            // Implemente a lógica para inserir um filme na fonte de dados.
-            _movies.Add(movie);
+            
+            _dbContext.Movies.Add(movie);
+            var result = _dbContext.SaveChanges();
+
         }
 
         public void Update(Movie movie)
         {
-            // Implemente a lógica para atualizar um filme na fonte de dados.
-            var existingMovie = _movies.FirstOrDefault(m => m.Id == movie.Id);
-            if (existingMovie != null)
-            {
-                // Atualize as propriedades relevantes.
-                existingMovie.Title = movie.Title;
-                existingMovie.Overview = movie.Overview;
-                // Atualize outras propriedades...
-            }
+            _dbContext.Movies.Update(movie);
+            var result = _dbContext.SaveChanges();
         }
 
         public void Delete(int id)
         {
-            // Implemente a lógica para excluir um filme da fonte de dados.
-            var movieToRemove = _movies.FirstOrDefault(m => m.Id == id);
-            if (movieToRemove != null)
+            var movie = _dbContext.Movies.Find(id);
+
+            if (movie != null)
             {
-                _movies.Remove(movieToRemove);
+                _dbContext.Movies.Remove(movie);
+                var result = _dbContext.SaveChanges();
             }
+
+           
         }
     }
 }

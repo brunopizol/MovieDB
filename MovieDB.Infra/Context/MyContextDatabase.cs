@@ -46,14 +46,17 @@ namespace MovieDB.Infra.Context
                 entity.HasKey(e => e.Id);
                 entity.Property(e => e.Title).HasMaxLength(100).IsRequired();
                 entity.Property(e => e.ReleaseYear).IsRequired();
-                entity.HasOne(e => e.Director).WithMany(d => d.Movies).HasForeignKey(e => e.Id);
-                entity.HasMany(e => e.Actors).WithMany(a => a.Movies);
+                //entity.Property(e => e.Actors);
+                //entity.Property(e => e.Director);
+                //entity.HasOne(e => e.Director).WithMany(d => d.Movies).HasForeignKey(e => e.Id);
+                //entity.HasMany(e => e.Actors).WithMany(a => a.Movies);
 
-                entity.Property(m => m.Genres)
-                  .HasConversion(
-                       v => string.Join(',', v),
-                       v => v.Split(',', StringSplitOptions.RemoveEmptyEntries).Select(g => (GenreEnum)Enum.Parse(typeof(GenreEnum), g)).ToList()
-                   );
+                entity.Property(e => e.Genres);
+                //entity.Property(m => m.Genres)
+                //  .HasConversion(
+                //       v => string.Join(',', v),
+                //       v => v.Split(',', StringSplitOptions.RemoveEmptyEntries).Select(g => (GenreEnum)Enum.Parse(typeof(GenreEnum), g)).ToList()
+                //   );
 
             });
 
@@ -61,14 +64,14 @@ namespace MovieDB.Infra.Context
             {
                 entity.HasKey(e => e.Id);
                 entity.Property(e => e.Name).HasMaxLength(100).IsRequired();
-                entity.HasMany(e => e.Movies).WithMany(m => m.Actors);
+                
             });
 
             modelBuilder.Entity<Director>(entity =>
             {
                 entity.HasKey(e => e.Id);
                 entity.Property(e => e.Name).HasMaxLength(100).IsRequired();
-                entity.HasMany(e => e.Movies).WithOne(m => m.Director);
+                
             });
 
            

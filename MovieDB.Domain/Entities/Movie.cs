@@ -13,8 +13,8 @@ namespace MovieDB.Domain.Entities
         public string Title { get; set; }
         public string Overview { get; set; }
         public int ReleaseYear { get; set; }
-        public List<Actor> Actors { get; set; }
-        public Director Director { get; set; }
-        public List<GenreEnum> Genres { get; set; }
+        //public List<Actor>? Actors { get; set; }
+        //public Director? Director { get; set; }
+        public string Genres { get; set; }
     }
 }

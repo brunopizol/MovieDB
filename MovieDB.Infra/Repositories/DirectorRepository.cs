@@ -33,9 +33,9 @@ namespace MovieDB.Infra.Repositories
                 if (existingDirector != null)
                 {
                 existingDirector.Name = existingDirector.Name;
-                existingDirector.Movies.AddRange(existingDirector.Movies);
+                //existingDirector.Movies.AddRange(existingDirector.Movies);
                 existingDirector.BirthDate = existingDirector.BirthDate;
-                }
+            }
             }
 
             public void Delete(int id)
