@@ -7,6 +7,10 @@ using MovieDB.Domain.Services;
 using MovieDB.Infra.Repositories;
 using MovieDB.Domain.Repositories;
 using MovieDB.Domain.Entities;
+using Microsoft.AspNetCore.Authentication;
+using MovieDB.Application.Services;
+using MovieDB.Application.Helpers;
+using developChallenge.Web.Api;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -32,6 +36,10 @@ builder.Services.AddDbContext<MyContextDatabase>(options =>
 builder.Services.AddScoped<MovieService>();
 builder.Services.AddScoped<DirectorService>();
 builder.Services.AddScoped<ActorService>();
+builder.Services.AddScoped<MovieDB.Application.Services.AuthenticationService>();
+builder.Services.AddScoped<UserService>();
+builder.Services.AddScoped<AuthenticationHelper>();
+builder.Services.AddAutoMapper(typeof(Startup));
 
 builder.Services.AddControllers()
     .AddControllersAsServices();
@@ -39,6 +47,7 @@ builder.Services.AddControllers()
 builder.Services.AddScoped(typeof(IRepository<Movie>), typeof(MovieRepository));
 builder.Services.AddScoped(typeof(IRepository<Actor>), typeof(ActorRepository));
 builder.Services.AddScoped(typeof(IRepository<Director>), typeof(DirectorRepository));
+builder.Services.AddScoped(typeof(IRepository<User>), typeof(UserRepository));
 
 var app = builder.Build();
 

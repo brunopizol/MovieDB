@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "7BfyPz2SK+4WFhnn25YCWCE6yibQoNC9wBWeV/0scnuDmZnMcZjphgOiIiAF1dStL1MuVpdeKAPKeetV6l9Qrg==",
+  "success": true,
+  "projectFilePath": "C:\\MovieDB\\MovieDB.Application\\MovieDB.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\t.bruno.pizol\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\t.bruno.pizol\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\t.bruno.pizol\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.5.1\\microsoft.identitymodel.abstractions.7.5.1.nupkg.sha512",
+    "C:\\Users\\t.bruno.pizol\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.5.1\\microsoft.identitymodel.jsonwebtokens.7.5.1.nupkg.sha512",
+    "C:\\Users\\t.bruno.pizol\\.nuget\\packages\\microsoft.identitymodel.logging\\7.5.1\\microsoft.identitymodel.logging.7.5.1.nupkg.sha512",
+    "C:\\Users\\t.bruno.pizol\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.5.1\\microsoft.identitymodel.tokens.7.5.1.nupkg.sha512",
+    "C:\\Users\\t.bruno.pizol\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.5.1\\system.identitymodel.tokens.jwt.7.5.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieDB.WebApi", "MovieDB.WebApi\MovieDB.WebApi.csproj", "{850E0773-41F6-4941-9ABE-06E5D47C7054}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieDB.WebApi", "MovieDB.WebApi\MovieDB.WebApi.csproj", "{850E0773-41F6-4941-9ABE-06E5D47C7054}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieDB.Domain", "MovieDB.Domain\MovieDB.Domain.csproj", "{F52A6312-A194-4EBC-AB25-E9EACC67BDD7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieDB.Domain", "MovieDB.Domain\MovieDB.Domain.csproj", "{F52A6312-A194-4EBC-AB25-E9EACC67BDD7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieDB.Infra", "MovieDB.Infra\MovieDB.Infra.csproj", "{4F43732C-BA18-4BD1-84FC-1CF4065FA8DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieDB.Infra", "MovieDB.Infra\MovieDB.Infra.csproj", "{4F43732C-BA18-4BD1-84FC-1CF4065FA8DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieDB.Application", "MovieDB.Application\MovieDB.Application.csproj", "{61F3AEF4-5BBC-481A-869A-301CC6A45D3D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{4F43732C-BA18-4BD1-84FC-1CF4065FA8DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F43732C-BA18-4BD1-84FC-1CF4065FA8DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F43732C-BA18-4BD1-84FC-1CF4065FA8DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61F3AEF4-5BBC-481A-869A-301CC6A45D3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61F3AEF4-5BBC-481A-869A-301CC6A45D3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61F3AEF4-5BBC-481A-869A-301CC6A45D3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61F3AEF4-5BBC-481A-869A-301CC6A45D3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

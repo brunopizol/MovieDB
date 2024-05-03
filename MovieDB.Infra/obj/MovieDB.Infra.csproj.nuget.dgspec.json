@@ -1,32 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bruno\\source\\repos\\MovieDB\\MovieDB.Infra\\MovieDB.Infra.csproj": {}
+    "C:\\MovieDB\\MovieDB.Infra\\MovieDB.Infra.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bruno\\source\\repos\\MovieDB\\MovieDB.Domain\\MovieDB.Domain.csproj": {
+    "C:\\MovieDB\\MovieDB.Domain\\MovieDB.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bruno\\source\\repos\\MovieDB\\MovieDB.Domain\\MovieDB.Domain.csproj",
+        "projectUniqueName": "C:\\MovieDB\\MovieDB.Domain\\MovieDB.Domain.csproj",
         "projectName": "MovieDB.Domain",
-        "projectPath": "C:\\Users\\bruno\\source\\repos\\MovieDB\\MovieDB.Domain\\MovieDB.Domain.csproj",
-        "packagesPath": "C:\\Users\\bruno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bruno\\source\\repos\\MovieDB\\MovieDB.Domain\\obj\\",
+        "projectPath": "C:\\MovieDB\\MovieDB.Domain\\MovieDB.Domain.csproj",
+        "packagesPath": "C:\\Users\\t.bruno.pizol\\.nuget\\packages\\",
+        "outputPath": "C:\\MovieDB\\MovieDB.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\t.bruno.pizol\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Users\\t.bruno.pizol\\.nuget\\packages": {},
+          "C:\\nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/acessocardvsts/_packaging/Acesso%40Local/nuget/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -34,18 +39,38 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[7.5.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.5.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -54,36 +79,41 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\bruno\\source\\repos\\MovieDB\\MovieDB.Infra\\MovieDB.Infra.csproj": {
+    "C:\\MovieDB\\MovieDB.Infra\\MovieDB.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bruno\\source\\repos\\MovieDB\\MovieDB.Infra\\MovieDB.Infra.csproj",
+        "projectUniqueName": "C:\\MovieDB\\MovieDB.Infra\\MovieDB.Infra.csproj",
         "projectName": "MovieDB.Infra",
-        "projectPath": "C:\\Users\\bruno\\source\\repos\\MovieDB\\MovieDB.Infra\\MovieDB.Infra.csproj",
-        "packagesPath": "C:\\Users\\bruno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bruno\\source\\repos\\MovieDB\\MovieDB.Infra\\obj\\",
+        "projectPath": "C:\\MovieDB\\MovieDB.Infra\\MovieDB.Infra.csproj",
+        "packagesPath": "C:\\Users\\t.bruno.pizol\\.nuget\\packages\\",
+        "outputPath": "C:\\MovieDB\\MovieDB.Infra\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\t.bruno.pizol\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Users\\t.bruno.pizol\\.nuget\\packages": {},
+          "C:\\nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/acessocardvsts/_packaging/Acesso%40Local/nuget/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\bruno\\source\\repos\\MovieDB\\MovieDB.Domain\\MovieDB.Domain.csproj": {
-                "projectPath": "C:\\Users\\bruno\\source\\repos\\MovieDB\\MovieDB.Domain\\MovieDB.Domain.csproj"
+              "C:\\MovieDB\\MovieDB.Domain\\MovieDB.Domain.csproj": {
+                "projectPath": "C:\\MovieDB\\MovieDB.Domain\\MovieDB.Domain.csproj"
               }
             }
           }
@@ -92,11 +122,16 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -119,7 +154,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -128,7 +164,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

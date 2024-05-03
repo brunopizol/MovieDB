@@ -1,0 +1,13 @@
+C:\MovieDB\MovieDB.Domain\bin\Debug\net8.0\MovieDB.Domain.deps.json
+C:\MovieDB\MovieDB.Domain\bin\Debug\net8.0\MovieDB.Domain.dll
+C:\MovieDB\MovieDB.Domain\bin\Debug\net8.0\MovieDB.Domain.pdb
+C:\MovieDB\MovieDB.Domain\obj\Debug\net8.0\MovieDB.Domain.csproj.AssemblyReference.cache
+C:\MovieDB\MovieDB.Domain\obj\Debug\net8.0\MovieDB.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\MovieDB\MovieDB.Domain\obj\Debug\net8.0\MovieDB.Domain.AssemblyInfoInputs.cache
+C:\MovieDB\MovieDB.Domain\obj\Debug\net8.0\MovieDB.Domain.AssemblyInfo.cs
+C:\MovieDB\MovieDB.Domain\obj\Debug\net8.0\MovieDB.Domain.csproj.CoreCompileInputs.cache
+C:\MovieDB\MovieDB.Domain\obj\Debug\net8.0\MovieDB.Domain.sourcelink.json
+C:\MovieDB\MovieDB.Domain\obj\Debug\net8.0\MovieDB.Domain.dll
+C:\MovieDB\MovieDB.Domain\obj\Debug\net8.0\refint\MovieDB.Domain.dll
+C:\MovieDB\MovieDB.Domain\obj\Debug\net8.0\MovieDB.Domain.pdb
+C:\MovieDB\MovieDB.Domain\obj\Debug\net8.0\ref\MovieDB.Domain.dll

@@ -33,14 +33,14 @@ namespace MovieDB.Domain.Repositories
         {
             
             _dbContext.Movies.Add(movie);
-            var result = _dbContext.SaveChanges();
+            _dbContext.SaveChanges();
 
         }
 
         public void Update(Movie movie)
         {
             _dbContext.Movies.Update(movie);
-            var result = _dbContext.SaveChanges();
+            _dbContext.SaveChanges();
         }
 
         public void Delete(int id)
@@ -50,10 +50,15 @@ namespace MovieDB.Domain.Repositories
             if (movie != null)
             {
                 _dbContext.Movies.Remove(movie);
-                var result = _dbContext.SaveChanges();
+                _dbContext.SaveChanges();
             }
 
            
+        }
+
+        public Task<Movie> GetById(string email, string password)
+        {
+            throw new NotImplementedException();
         }
     }
 }

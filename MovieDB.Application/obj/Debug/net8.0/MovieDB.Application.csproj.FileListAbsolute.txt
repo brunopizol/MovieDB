@@ -1,0 +1,16 @@
+C:\MovieDB\MovieDB.Application\obj\Debug\net8.0\MovieDB.Application.csproj.AssemblyReference.cache
+C:\MovieDB\MovieDB.Application\obj\Debug\net8.0\MovieDB.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\MovieDB\MovieDB.Application\obj\Debug\net8.0\MovieDB.Application.AssemblyInfoInputs.cache
+C:\MovieDB\MovieDB.Application\obj\Debug\net8.0\MovieDB.Application.AssemblyInfo.cs
+C:\MovieDB\MovieDB.Application\obj\Debug\net8.0\MovieDB.Application.csproj.CoreCompileInputs.cache
+C:\MovieDB\MovieDB.Application\obj\Debug\net8.0\MovieDB.Application.sourcelink.json
+C:\MovieDB\MovieDB.Application\bin\Debug\net8.0\MovieDB.Application.deps.json
+C:\MovieDB\MovieDB.Application\bin\Debug\net8.0\MovieDB.Application.dll
+C:\MovieDB\MovieDB.Application\bin\Debug\net8.0\MovieDB.Application.pdb
+C:\MovieDB\MovieDB.Application\bin\Debug\net8.0\MovieDB.Domain.dll
+C:\MovieDB\MovieDB.Application\bin\Debug\net8.0\MovieDB.Domain.pdb
+C:\MovieDB\MovieDB.Application\obj\Debug\net8.0\MovieDB..D42FAA34.Up2Date
+C:\MovieDB\MovieDB.Application\obj\Debug\net8.0\MovieDB.Application.dll
+C:\MovieDB\MovieDB.Application\obj\Debug\net8.0\refint\MovieDB.Application.dll
+C:\MovieDB\MovieDB.Application\obj\Debug\net8.0\MovieDB.Application.pdb
+C:\MovieDB\MovieDB.Application\obj\Debug\net8.0\ref\MovieDB.Application.dll

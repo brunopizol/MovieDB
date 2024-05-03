@@ -1,20 +1,14 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="dockerfile" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Compile Include="dockerfile" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="FluentValidation" Version="11.9.1" />
     <PackageReference Include="HotChocolate" Version="13.5.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.12">
       <PrivateAssets>all</PrivateAssets>
@@ -27,6 +21,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MovieDB.Domain\MovieDB.Domain.csproj" />
+	  <ProjectReference Include="..\MovieDB.Application\MovieDB.Application.csproj" />
     <ProjectReference Include="..\MovieDB.Infra\MovieDB.Infra.csproj" />
   </ItemGroup>
 

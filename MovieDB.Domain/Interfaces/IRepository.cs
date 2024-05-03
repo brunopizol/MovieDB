@@ -4,11 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MovieDB.Infra.Repositories
+namespace MovieDB.Domain.Repositories
 {
     public interface IRepository<T>
     {
         T GetById(int id);
+        Task<T> GetById(string email, string password);
         IEnumerable<T> GetAll();
         void Insert(T entity);
         void Update(T entity);

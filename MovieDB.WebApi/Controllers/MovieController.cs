@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using MovieDB.Domain.Entities;
 using MovieDB.Domain.Services;
 
 namespace MovieDB.WebApi.Controllers
 {
 
+        [Authorize]
         [Route("api/movies")]
         [ApiController]
         public class MovieController : ControllerBase
